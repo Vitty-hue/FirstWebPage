@@ -1,0 +1,78 @@
+header {
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Logo{  
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    padding-left: 16%;
+    padding-top: 2px;
+}
+.MainLogoRef{
+    color:black;
+    text-decoration: none;
+}
+.topMain {
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+.topRef {
+    text-decoration: none;
+    color: black;
+}
+.topRef:hover{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+    color: black;
+}
+.Main {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 15px;
+    align-items: center;
+}
+.CompanyManual {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    font-size: 28px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1% 10%;
+    text-align: justify;
+}
+.list1 {
+    display:grid;
+    grid-template-columns: 50% 50% ;
+    justify-items: right;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.questionCat {
+    margin-right: 600px;
+}
+li {
+    margin-right: 250px;
+    font-size: 35px;
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
