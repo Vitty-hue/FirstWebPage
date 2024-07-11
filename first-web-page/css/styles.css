@@ -7,7 +7,7 @@ body{
     font-size: 5vh;
     padding-left: 16%;
     padding-top: 2px;
-    background: url('file:///C:/Users/erikk/Desktop/web-projects/first-web-page(2)/images/star.png') no-repeat left center;
+    background: url('images/star.png') no-repeat left center;
     background-size: 4vh;
     background-position-x: 5%;
 }
@@ -43,7 +43,7 @@ body{
 .CenterOfPage {
     padding: 1%;
     padding-right: 50%;
-    background: url('..\images/mainImg.jpg') no-repeat;
+    background: url('images/mainImg.jpg') no-repeat;
     background-size: 35vh;
     background-position-y: 50%;
     background-position-x: 80%;
@@ -71,7 +71,7 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 5vh;
-    background: url('./images/security-cat.png') no-repeat;
+    background: url('images/security-cat.png') no-repeat;
     background-size: 33vh;
     background-position-y: 50%;
     background-position-x: 10%;  
@@ -83,7 +83,7 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 5vh;
-    background: url('./images/security-cat.png') no-repeat;
+    background: url('images/security-cat.png') no-repeat;
     background-size: 33vh;
     background-position-y: 50%;
     background-position-x: 90%;  
