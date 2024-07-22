@@ -10,50 +10,67 @@
   </head>
   <body>
     <header>
-      <div class="Main">
-        <div class="Logo">
-          <a href="index.html" class="MainLogoRef">Cat no logic </a>
-        </div>
-        <div class="CompanyManual">
-          <div><a href="about.html" class="topRef">О чем наш сайт?</a></div>
-          <div><a href="advices.html" class="topRef">Советы</a></div>
-          <div><a href="causes.html" class="topRef">Причины</a></div>
-          <div><a href="responsibility.html" class="topRef">Ответственность</a></div>
-          <div><a href="results.html" class="topRef">Результаты</a></div>
-        </div>
+      <img src="images/star.png" alt="Logo" class="Logo">
+      <a href="index.html" class="LogoWords" style="font-family:'Courier New', Courier, monospace">Cat no logic </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="breed.html" class="topRef">Породы</a>
+            </li>
+            <li>
+              <a href="#" class="topRef">Здоровье</a>
+            </li>
+            <li>
+              <a href="#" class="topRef">Воспитание</a>
+            </li>
+            <li>
+              <a href="#" class="topRef">Досуг&blacktriangledown;</a>
+              <ul class="dosug">
+                <li class="dosugDropped"><a class="dosugDropped" href="snoor.html">Сон</a></li>
+                <li class="dosugDropped"><a class="dosugDropped" href="hide.html">Укромное место</a></li>
+                <li class="dosugDropped"><a class="dosugDropped" href="toys.html">Выбор игрушки</a></li>
+                <li class="dosugDropped"><a class="dosugDropped" href="walk.html">Выгул питомца</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="advices.html" class="topRef">Советы</a>
+            </li>
+          </nav>
     </header>
-    <hr style="color: black;">
     <main>
-      <div class="CenterOfPage">
-        <div class="MainLeftSide" style="text-align: justify;">
-           <i style="font-size: 9vh;">'Кошки'</i> - это не просто живое существо, для многих это живая головоломка.<br><br> Давайте же решим эту головоломку вместе.
+        <div class="MainLeftSideBackground">
+        <div class="MainLeftSide"> 
+          <i style="font-size: 9vh; font-family: Dela Gothic One; color: rgb(61, 60, 60)">Кошки</i>
+          Это не просто живое существо, для многих это живая головоломка.<br> Давайте же решим эту головоломку вместе.
         </div>
       </div>
-    <hr style="color: black;"> 
-      <div class="UnderTheMainOffer">
-       На сайте Вы найдете ответы на все интересующие Вас вопросы о Вашем любимом питомце.<br> Если вы хотите ему счастливую
-       и здоровую жизнь, то это то самое место, где хранится данное сокровище.<br>А также все наши советы и методы 
-       мы применяли на своей кошечке!
-      </div>
-    <hr style="color: black;"> 
-      <div class="myCat">
-        <div class="AtOur"><small>Прошу Вас познакомиться с нашей малышкой - её зовут <span style="text-decoration: underline; text-decoration-thickness: 1px; font-size: 6vh;">Ция</span>, 
-          и она самая счастливая кошка-картошка в мире!</small>
+      <button id="AboutI" onclick="changeButton(this)"><i style="font-size: 5vh; font-family: Dela Gothic One">
+       <big class="AboutI"> О чем сайт? <br><small style="font-size: 24px;">(просто кликни на меня)</small></big>
+     </i>
+      </button>
+      <div id="About">
+       <div id="AboutUs">
+          Наш сайт посвящен кошкам и создан для всех, кто любит этих удивительных животных и хочет лучше понять, как заботиться о них. 
+          Мы предлагаем обширную и полезную информацию, которая поможет вам стать лучшим хозяином для вашего питомца. 
+       </div> 
+      <div  class="MainRight">
+          <i style="font-size: 10vh; font-family: Dela Gothic One; margin-bottom: 5%; text-align: center;">
+            На нашем сайте Вы найдете:
+          </i> 
+          <br> <br>
+          <ul class="MainRight0">
+            <li class="MainRight1"><b>Советы по воспитанию кошек:</b> Узнайте, как приучить кошку к туалету, обучить её простым командам и скорректировать нежелательное поведение.</li>
+            <li class="MainRight1"><b>Информацию о поведении кошек:</b> Понимание языка тела вашей кошки, как справляться с агрессией или страхом, а также советы по социализации и взаимодействию с другими животными.</li>
+            <li class="MainRight1"><b>Рекомендации по взаимодействию с кошками:</b> Как правильно подходить и брать кошку на руки, безопасные и полезные игры, а также как не спровоцировать стресс у вашего питомца.</li>
+            <li class="MainRight1"><b>Руководства для хороших хозяев:</b> Правильное кормление и диета, создание комфортных условий для жизни кошки, регулярные ветеринарные осмотры и вакцинации.</li>
+          </ul>
         </div>
-      </div> 
-      <hr style="color: black;"> 
-      <div class="DashaCat">
-        <div class="Morty">Также в нашей компании обитает милейшая кошечка <span style="text-decoration: underline; text-decoration-thickness: 1px; font-size: 6vh;">Мортиша</span>, 
-          иногда мы называм её Беззубиком.
-        </div>
-      </div> 
-      <hr style="color: black;"> 
+      <br><br>
+    </div>
+    <div class="MainRight2">
+      <i style="font-size: 5vh; font-family: Dela Gothic One">Добро пожаловать на наш сайт!</i>
+    </div>
     </main>
-    <footer>
-      <div class="mainFooter" style="text-decoration: underline; text-decoration-thickness: 1px">
-          Контакты:<br>
-          <a href="https://vk.com/enrique.mkrtchian" class="footerURL">Эрик Мкртчян</a><br>
-      </div>
-    </footer>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>

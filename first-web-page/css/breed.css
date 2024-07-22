@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap);
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.hidden {
+    animation: fadeOut 1s forwards;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-image: url(../images/Breed.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: thin;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 100px;
+    background: rgb(61, 60, 60);
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 20px #000;
+}
+.Logo {
+    height: 7vh;
+    width: auto;
+}
+.LogoWords {
+    display: block;
+    font-size: 4vh;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.LogoWords:hover {
+    transform: scale(1.2);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+nav ul li{
+    position: relative;
+    float: left;
+}
+nav ul li a{
+    padding: 15px;
+    color: #fff;
+    font-style: 4vh;
+    display: block;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(114, 114, 114);
+}
+.dosug {
+    padding: 0;
+    margin-left:6.5vb;
+}
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background:rgb(61, 60, 60);
+    opacity: 0; 
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+nav ul li:hover > ul {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+nav ul li ul li {
+    width: 100%;
+    border-bottom: 1px solid rgb(61, 60, 60);
+}
+.topRef {
+    font-size: 3vh;
+    padding: 0px 10px 0px 100px;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    position: relative;
+    top: 100px;
+}
+.Navigation {
+    opacity: .8;
+    display: block;
+    border-right: 1px solid #000;
+    width: 100%;
+    padding-right: 20px;
+    padding: 10%;
+    background: rgb(61, 60, 60);
+    height: 100%;
+    color: white;
+    margin-left: 25%;
+}
+.Navigation ul li {
+    font-size: 2vh;
+    padding-top: 5px
+}
+#JapBob {
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    border: 0;
+    background-color: rgba(233, 225, 216, 0);
+    color: rgb(61, 60, 60);
+}
+#JapBobTop {
+    display: block;
+    margin: 2%;
+    padding: 1% 2%;
+    font-size: 4vh;
+    font-family: Dela Gothic One;
+}
+#JapBobImg {
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(61, 60, 60);
+    border-right: 1.5px solid rgb(61, 60, 60);
+    margin-bottom: 5%;
+}
+#JapBobMain {
+    display: block;
+    text-align: justify;
+    padding: 5% 10%;
+    font-size: 2.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px 0px 10px 0px;
+    border-top: 2px solid rgb(61, 60, 60);
+    border-left: 1px solid rgb(61, 60, 60);
+    width: 101%;
+}
